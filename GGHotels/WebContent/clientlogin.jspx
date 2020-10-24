@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" 
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	version="2.0">
+    <jsp:directive.page language="java" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>GGHotels - Login</title>
+    <link rel="stylesheet" href="clientlogin.css"/>
+</head>
+<body>
+<form method="post" action="clientlogin.jspx" >
+<div class="login-box">
+  <h1>
+ 	Login
+  </h1>
+  <div class="message ">
+  <h2>
+  <br />
+  <c:choose>
+	<c:when test="${unsuccessfulLogin}"><br />Your login is invalid.  Please try again.</c:when>
+	<c:otherwise>Welcome to GGHotels.  Please login.</c:otherwise>
+  	</c:choose>
+  </h2>
+  </div>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Username" name="username"/>
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password" name="password"/>
+  </div>
+
+  <input type="submit" class="btn" value="Sign in"/>
+</div>
+</form>
+</body>
+</html>
+</jsp:root>

@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(GGHotels.jpg) no-repeat;
+  background-size: cover;
+}
+p{
+  font-family: sans-serif;
+  color: white;
+}
+label{
+	font-family: sans-serif;
+  	color: white;
+}
+a { color: white; text-decoration: none; }
+a.like_button { padding-left: 0.5em; padding-right: 0.5em; background-color: green; border: 3px outset green; }
+
+#bookroom {
+	float: left;
+}
+
+input#startdate{
+	border-radius: 25px;
+}
+input#startdate:hover{
+	cursor:pointer;
+}
+
+h2{
+	font-family: sans-serif;
+	color: white;
+}

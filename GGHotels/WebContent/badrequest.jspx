@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page language="java"
+        contentType="application/xhtml+xml; charset=UTF-8" pageEncoding="UTF-8" />
+    <jsp:output omit-xml-declaration="no" 
+        doctype-root-element="html"  
+        doctype-public="-//W3C//DTD XHTML 1.1//EN" 
+        doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="book.css"/>
+<title>GGHotels - Error Page</title>
+</head>
+<body class="dark">
+<table class="page_table">
+<tr>
+<td>
+<table class="message">
+<tr>
+<td class="corner rboxtl"><!-- This comment has been inserted to ensure that the XML parser does not convert the open/close td tag into a single close tag --></td><td><!-- This comment has been inserted to ensure that the XML parser does not convert the open/close td tag into a single close tag --></td><td class="corner rboxtr"><!-- This comment has been inserted to ensure that the XML parser does not convert the open/close td tag into a single close tag --></td>
+</tr>
+<tr>
+<td><!-- This comment has been inserted to ensure that the XML parser does not convert the open/close td tag into a single close tag --></td>
+<td class="inner_message">
+<p class="initcap message">Sorry, your request was not valid.  Please try your request again.</p>
+
+<div class="return">
+<p><a href="." title="Return to content area">Return</a></p>
+</div>
+</td>
+<td><!-- This comment has been inserted to ensure that the XML parser does not convert the open/close td tag into a single close tag --></td>
+</tr>
+<tr>
+<td class="corner rboxbl"><!-- This comment has been inserted to ensure that the XML parser does not convert the open/close td tag into a single close tag --></td><td><!-- This comment has been inserted to ensure that the XML parser does not convert the open/close td tag into a single close tag --></td><td class="corner rboxbr"><!-- This comment has been inserted to ensure that the XML parser does not convert the open/close td tag into a single close tag --></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+</jsp:root>
